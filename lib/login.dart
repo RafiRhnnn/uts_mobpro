@@ -57,7 +57,7 @@ class _LoginPageState extends State<LoginPage> {
                 onPressed: () {
                   // Validasi username dan password
                   if (_usernameController.text == 'rafiraihan' &&
-                      _passwordController.text == 'admin123') {
+                      _passwordController.text == 'admin321') {
                     // Memanggil halaman Dashboard dengan username
                     Navigator.push(
                       context,
