@@ -62,13 +62,13 @@ class _DashboardPageState extends State<DashboardPage> {
 
   @override
   Widget build(BuildContext context) {
-    final List<Widget> _pages = [
+    final List<Widget> pages = [
       _buildHomePage(),
       _buildProfilePage(),
     ];
 
     return Scaffold(
-      body: _pages[_currentIndex],
+      body: pages[_currentIndex],
       bottomNavigationBar: CurvedNavigationBar(
         backgroundColor: const Color.fromARGB(
             255, 255, 0, 0), // Warna latar belakang halaman
